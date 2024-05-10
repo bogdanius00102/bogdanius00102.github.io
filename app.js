@@ -8,9 +8,6 @@ mb.text="Відправити";
 
 
 
- //document.getElementById("usercard").innerText = tg.initDataUnsafe.user.first_name;
-
-
 function send_form()
 {
 
