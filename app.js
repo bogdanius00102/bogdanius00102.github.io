@@ -9,7 +9,7 @@ mb.color = '#2cab37';
 
 
 
-let usercard = document.getElementById("usercard").innerText = tg.initDataUnsafe.user.first_name;
+//let usercard = document.getElementById("usercard").innerText = tg.initDataUnsafe.user.first_name;
 
 
 function send_form()
