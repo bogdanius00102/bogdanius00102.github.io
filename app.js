@@ -4,7 +4,7 @@ tg.expand();
 
 let usercard = document.getElementById("usercard").innerText = tg.initDataUnsafe.user.first_name;
 
-usercard.appendChild(p);
+
 function btn_click()
 {
 
