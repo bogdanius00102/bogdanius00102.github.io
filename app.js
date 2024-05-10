@@ -2,7 +2,8 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 var mb=tg.MainButton;
-mb.text="Відправити";
+mb.text="Відправити2";
+
 
 
 
