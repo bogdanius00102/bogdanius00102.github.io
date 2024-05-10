@@ -1,7 +1,7 @@
 body
 {
 	text-align: center;
-	background: linear-gradient(135deg, #ffc701 20%, #ffae01 55%, rgba(255, 174, 1, .3));
+background-color: #ffc701 ;
 background-size: 100% 100vh;
 background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@ background-repeat: no-repeat;
     color:white;
 	margin-top: 3vh;
 	border-radius: 10px;
-	
+	border:0.4vw solid white;
 	display: inline-block;
 	padding-left:.3vw;
 	padding-right:.3vw;
@@ -19,9 +19,13 @@ background-repeat: no-repeat;
 	
 
 }
+.navbar_name
+{
+	font-size: calc(18px + 2vw);
+}
 .navbar
 {
-	font-size: calc(14px + 2.4vw);
+	font-size: calc(24px + 2.4vw);
 	font-weight: 600;
 margin-top:1vh;
 	margin-bottom: 3vh;
@@ -33,7 +37,7 @@ label
 	margin-bottom: 1vh;
 	width: 80%;
 	 font-family: "Roboto", sans-serif;
-font-size: calc(14px + 1.6vw);
+font-size: calc(24px + 1.6vw);
 font-weight: 500;
 }
 input
@@ -41,22 +45,22 @@ input
 	width: 80%;
 	margin-top:1vh;
 	margin-bottom: 3vh;
-	height: 4vh;
+	height: 6vh;
 	border-radius: 10px;
 	border:0.3vh solid black;
 	 font-family: "Roboto", sans-serif;
-font-size: calc(14px + 1.6vw);
+font-size: calc(24px + 1.6vw);
 text-align: center;
 }
 textarea
 {
-	height: 15vh;
+	height: 25vh;
 	border-radius: 10px;
 	border:0.3vh solid black;
 	width: 80%;
 	margin-top:1vh;
 	margin-bottom: 3vh;
-	font-size: calc(14px + 1.6vw);
+	font-size: calc(24px + 1.6vw);
 text-align: left;
   font-family: "Roboto", sans-serif;
 }
