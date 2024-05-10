@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
-
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js"></script>
 </head>
 <body>
 	
@@ -13,17 +14,17 @@
 	<div class=form>
 		<label>Введите текст 1</label>
 		<br>
-		<input id="txt1" type="text" name="text1">
+		<input oninput="send_form()" id="txt1" type="text" name="text1">
 		<br>
 		<label>Введите текст 2</label>
 		<br>
-		<input id="txt2" type="text" name="text2">
+		<input oninput="send_form()" id="txt2" type="text" name="text2">
 		<br>
-		<button id="btn1" onclick="btn_click()">Отправить</button>
+		
 
 	</div>
 
-		<script src="https://telegram.org/js/telegram-web-app.js"></script>
-	<script src="app.js"></script>
+		
+	
 </body>
 </html>
