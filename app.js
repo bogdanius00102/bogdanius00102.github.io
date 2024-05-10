@@ -39,10 +39,9 @@ function sendData()
 let txt1=document.getElementById("txt1").value;
 let txt2=document.getElementById("txt2").value;
 let array = [txt1, txt2];
-if(txt1.length<3 || txt2.length<3)
-{
+
 tg.sendData(array);
-}
+
 
 }
 
